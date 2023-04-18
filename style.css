@@ -6,16 +6,18 @@
     box-sizing: border-box;
     text-align: justify;
   }
-  body{
+body{
     font-family: montserrat;
     background-color: #0263ad8a;
 }
 .box1{
+    margin-top: 60px;
     background: rgba(0, 0, 0, 0.4);
     margin: auto;
     padding: 40px;
     text-align: center;
     border-radius: 5%;
+    width: 400px;
 }
 nav{
     background: #0082e6;
@@ -35,7 +37,7 @@ nav label{
     
 }
 nav ul{
-    float: right;
+    text-align: center;
     margin-right: 20px;
 }
 ul li a{
@@ -51,6 +53,7 @@ ul li{
 }
 .me{
     border-radius: 50%;
+    width: 200px;
 }
 a.active,a:hover{
     background: #0263ad;
@@ -70,9 +73,17 @@ a.active,a:hover{
     font-family: 'Century Gothic',sans-serif;
     font-size: 25px;
 }
+.box1 p{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 10px;
+}
 .box2{
     background: #0082e6;
     margin-top: 60px;
+    margin-bottom: 0px;
     padding: 40px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
@@ -82,4 +93,5 @@ a.active,a:hover{
 .box2 h6{
     text-align: center;
     font-weight: bold;
+    
 }
